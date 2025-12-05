@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Image -->
+        <img src="image/image_01.png" alt="Calculator Logo">
+
+        <h2>Simple Calculator</h2>
+
+        <input type="number" id="num1" placeholder="Enter first number"><br>
+        <input type="number" id="num2" placeholder="Enter second number"><br>
+
+        <button onclick="result.value = Number(num1.value) + Number(num2.value)"> + </button>
+        <button onclick="result.value = Number(num1.value) - Number(num2.value)"> - </button><br>
+
+        <button onclick="result.value = Number(num1.value) * Number(num2.value)"> × </button>
+        <button onclick="result.value = Number(num1.value) / Number(num2.value)"> ÷ </button><br>
+
+        <input type="text" id="result" placeholder="Result" readonly>
+    </div>
+
+</body>
+</html>
